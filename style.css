@@ -1,0 +1,201 @@
+body {
+  font-family: Bitter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+}
+a{
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.nav-title {
+color: #000;
+font-family: "Playfair Display";
+font-size: 86px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+text-decoration: none;
+}
+.nav-part {
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+.nav-part-line {
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+}
+h1 {
+color: #000;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 86px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+}
+.double-part {
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.right-align-title {
+color: #000;
+text-align: right;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.bio-name {
+color: #000;
+font-family: "Playfair Display";
+font-size: 86px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.qualification-katya {
+color: #0D0D0D;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+list-style-type: none;
+}
+.quote-bio {
+}
+.design {
+color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.name-designer {
+color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.bold-part-text {
+color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.skills {
+color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.feedback {
+color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.web {
+color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.second-quote {
+color: #000;
+text-align: center;
+font-family: Bitter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.strong-points-title {
+color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.last-title {
+color: #000;
+font-family: "Playfair Display";
+font-size: 86px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+}
+footer {
+    background-color: #0D0D0D;
+}
+address {
+color: var(--White, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+text-decoration-line: underline;
+text-transform: uppercase;
+}
+.product {
+color: var(--White, #FFF);
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.bold-title {
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.rights {
+color: var(--White, #FFF);
+text-align: right;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
