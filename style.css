@@ -1,5 +1,35 @@
+@font-face {
+    font-family: "Playfair Display Medium";
+    src:
+        url("font/PlayfairDisplay-Medium.ttf") format("ttf"),
+        url("font/PlayfairDisplay-Medium.woff") format("woff"),
+        url("font/PlayfairDisplay-Medium.woff2") format("woff2"),
+        url("font/PlayfairDisplay-Medium.svg") format("svg");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Playfair Display SemiBold";
+    src:
+        url("font/PlayfairDisplay-SemiBold.ttf") format("ttf"),
+        url("font/PlayfairDisplay-SemiBold.woff") format("woff"),
+        url("font/PlayfairDisplay-SemiBold.woff2") format("woff2"),
+        url("font/PlayfairDisplay-SemiBold.svg") format("svg");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Playfair Display Regular";
+    src:
+        url("font/PlayfairDisplay-Regular.ttf") format("ttf"),
+        url("font/PlayfairDisplay-Regular.woff") format("woff"),
+        url("font/PlayfairDisplay-Regular.woff2") format("woff2"),
+        url("font/PlayfairDisplay-Regular.svg") format("svg");
+    font-weight: 400;
+}
+
 body {
-    font-family: Bitter;
+    font-family: "Playfair Display Regular", serif;
     font-weight: 400;
     font-size: 16px;
     line-height: normal;
