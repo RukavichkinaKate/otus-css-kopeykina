@@ -53,7 +53,7 @@ li {
     text-decoration: none;
 }
 
-.nav-part {
+.nav-part, .nav-part-line, .title-testimonials {
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -65,13 +65,6 @@ li {
 }
 
 .nav-part-line {
-    color: #000;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     text-decoration-line: underline;
 }
 
@@ -85,7 +78,7 @@ h1 {
     line-height: 120%;
 }
 
-.double-part {
+.title-description {
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -95,7 +88,7 @@ h1 {
     line-height: normal;
 }
 
-.right-align-title {
+.title-biography {
     color: #000;
     text-align: right;
     font-family: Roboto;
@@ -105,7 +98,7 @@ h1 {
     line-height: normal;
 }
 
-.bio-name {
+.director-name {
     color: #000;
     font-family: "Playfair Display";
     font-size: 86px;
@@ -124,7 +117,7 @@ h1 {
     list-style-type: none;
 }
 
-.quote-bio {
+.quote-biography {
     color: #0D0D0D;
     font-family: Bitter;
     font-size: 26px;
@@ -133,7 +126,7 @@ h1 {
     line-height: normal;
 }
 
-.design {
+.title-design {
     color: #000;
     font-family: Roboto;
     font-size: 24px;
@@ -189,7 +182,7 @@ h1 {
     line-height: normal;
 }
 
-.second-quote {
+.quote-testimonials {
     color: #000;
     text-align: center;
     font-family: Bitter;
@@ -199,7 +192,7 @@ h1 {
     line-height: normal;
 }
 
-.strong-points-title {
+.title-strong-points {
     color: #000;
     font-family: Roboto;
     font-size: 24px;
@@ -208,7 +201,7 @@ h1 {
     line-height: normal;
 }
 
-.last-title {
+.title-strengths {
     color: #000;
     font-family: "Playfair Display";
     font-size: 86px;
