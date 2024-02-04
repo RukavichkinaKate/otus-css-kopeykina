@@ -33,6 +33,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: normal;
+    margin: 0 auto;
 }
 
 a {
@@ -45,8 +46,9 @@ li {
 
 nav {
     text-align: right;
+    max-width: 1440px;
 }
-.nav title {
+.nav-title {
     color: #000;
     font-family: "Playfair Display";
     font-size: 86px;
@@ -55,8 +57,12 @@ nav {
     line-height: 120%;
     text-decoration: none;
 }
-
-.nav part, .line, .title-testimonials {
+.nav-title li {
+    margin-top: 16px;
+    margin-left: 0;
+    margin-right: 500px;
+}
+.nav-part, .line, .title-testimonials {
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -66,16 +72,38 @@ nav {
     line-height: normal;
     text-decoration: none;
 }
-.nav {
-    display: inline-block;
-}
+/* nav {
+    height: 135px;
+} */
+
 ul.menu li {
     display: inline-block;
+    vertical-align: middle;
 }
 .line {
     text-decoration-line: underline;
 }
 
+.hero-section {
+    background-color: #d9cacb;
+    background-image: url(img/Mod-studio-icon.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 360px;
+    padding-top: 136px;
+    padding-bottom: 134px;
+    margin: 0 auto;
+}
+.hero-element {
+    width: 558px;
+    height: 140px;
+    padding: 110px 66px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1 {
     color: #000;
     text-align: center;
@@ -83,7 +111,9 @@ h1 {
     font-size: 86px;
     font-style: normal;
     font-weight: 500;
-    line-height: 120%;
+    line-height: 103.2px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .title-description {
@@ -93,7 +123,7 @@ h1 {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 23.44px;
 }
 
 .title-biography {
