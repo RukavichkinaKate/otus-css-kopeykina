@@ -43,7 +43,10 @@ li {
     list-style-type: none;
 }
 
-.nav-title {
+nav {
+    text-align: right;
+}
+.nav title {
     color: #000;
     font-family: "Playfair Display";
     font-size: 86px;
@@ -53,7 +56,7 @@ li {
     text-decoration: none;
 }
 
-.nav-part, .nav-part-line, .title-testimonials {
+.nav part, .line, .title-testimonials {
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -63,8 +66,13 @@ li {
     line-height: normal;
     text-decoration: none;
 }
-
-.nav-part-line {
+.nav {
+    display: inline-block;
+}
+ul.menu li {
+    display: inline-block;
+}
+.line {
     text-decoration-line: underline;
 }
 
