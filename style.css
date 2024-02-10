@@ -50,6 +50,7 @@ li {
     flex-direction: row;
     justify-content: flex-start;
 }
+
 .nav-title {
     color: #000;
     font-family: "Playfair Display";
