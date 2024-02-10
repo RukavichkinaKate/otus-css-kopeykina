@@ -42,12 +42,14 @@ a {
 
 li {
     list-style-type: none;
+    margin-right: 50px;
 }
 
-/* nav {
-    text-align: right;
-    max-width: 1440px;
-} */
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 .nav-title {
     color: #000;
     font-family: "Playfair Display";
@@ -57,6 +59,7 @@ li {
     line-height: 120%;
     text-decoration: none;
     margin-top: 16px;
+    margin-left: 20px;
 }
     
 .nav-part, .line, .title-testimonials {
@@ -69,22 +72,27 @@ li {
     line-height: normal;
     text-decoration: none;
 }
-/* nav {
-    height: 135px;
-} */
 
-ul.menu li {
-    display: inline-block;
-    vertical-align: middle;
+.menu {
+    width: 1195px;
+    height: 105px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
 }
+.uniq {
+    margin-right: 15px;
+}
+
 .line {
     text-decoration-line: underline;
 }
 
 .hero-section {
-    background-color: #d9cacb;
-    background-image: url(img/Mod-studio-icon.svg);
     background-size: cover;
+    background-image: url(img/Mod-studio-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
     height: 360px;
@@ -93,9 +101,10 @@ ul.menu li {
     margin: 0 auto;
 }
 .hero-element {
-    width: 558px;
-    height: 140px;
-    padding: 110px 66px;
+    box-sizing: border-box;
+    width: 690px;
+    height: 360px;
+    padding: 110px 20px;
     background-color: #FFFFFF;
     text-align: center;
     margin-left: auto;
@@ -108,7 +117,8 @@ h1 {
     font-size: 86px;
     font-style: normal;
     font-weight: 500;
-    line-height: 103.2px;
+    line-height: 120%;
+    text-align: center;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -120,7 +130,7 @@ h1 {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 23.44px;
+    margin-top: 14px;
 }
 
 .title-biography {
