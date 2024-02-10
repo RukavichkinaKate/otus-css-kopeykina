@@ -44,10 +44,10 @@ li {
     list-style-type: none;
 }
 
-nav {
+/* nav {
     text-align: right;
     max-width: 1440px;
-}
+} */
 .nav-title {
     color: #000;
     font-family: "Playfair Display";
@@ -56,12 +56,9 @@ nav {
     font-weight: 600;
     line-height: 120%;
     text-decoration: none;
-}
-.nav-title li {
     margin-top: 16px;
-    margin-left: 0;
-    margin-right: 500px;
 }
+    
 .nav-part, .line, .title-testimonials {
     color: #000;
     text-align: center;
