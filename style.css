@@ -33,6 +33,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: normal;
+    margin: 0 auto;
 }
 
 a {
@@ -41,6 +42,13 @@ a {
 
 li {
     list-style-type: none;
+    margin-right: 50px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .nav-title {
@@ -51,9 +59,11 @@ li {
     font-weight: 600;
     line-height: 120%;
     text-decoration: none;
+    margin-top: 16px;
+    margin-left: 20px;
 }
-
-.nav-part, .nav-part-line, .title-testimonials {
+    
+.nav-part, .line, .title-testimonials {
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -64,10 +74,43 @@ li {
     text-decoration: none;
 }
 
-.nav-part-line {
+.menu {
+    width: 1195px;
+    height: 105px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.uniq {
+    margin-right: 15px;
+}
+
+.line {
     text-decoration-line: underline;
 }
 
+.hero-section {
+    background-size: cover;
+    background-image: url(img/Mod-studio-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 360px;
+    padding-top: 136px;
+    padding-bottom: 134px;
+    margin: 0 auto;
+}
+.hero-element {
+    box-sizing: border-box;
+    width: 690px;
+    height: 360px;
+    padding: 110px 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1 {
     color: #000;
     text-align: center;
@@ -76,6 +119,9 @@ h1 {
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .title-description {
@@ -85,7 +131,7 @@ h1 {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    margin-top: 14px;
 }
 
 .title-biography {
