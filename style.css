@@ -78,9 +78,9 @@ li {
     height: 105px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-end;
-    align-items: center;
+    align-content: center;
 }
 ul.menu li {
     margin-right: 50px;
@@ -98,12 +98,9 @@ ul.menu li {
     background-image: url(img/Mod-studio-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 360px;
+    height: 380px;
     padding-top: 136px;
     padding-bottom: 134px;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     margin: 0 auto;
 }
 
@@ -116,8 +113,6 @@ ul.menu li {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 
 h1 {
@@ -148,7 +143,7 @@ h1 {
     height: 840px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-end;
     margin-bottom: 150px;
     margin-top: 150px;
     }
@@ -168,13 +163,14 @@ h1 {
     transform: rotate(-90deg);
     translate: -40px 35px;
     height: 10%;
+    flex-shrink: 1;
 }
 .content-katya {
   width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: stretch;
+  align-content: space-around;
   box-sizing: border-box;
   /* width: 455px; */
   height: 840px;
@@ -210,6 +206,7 @@ h1 {
     line-height: normal;
     list-style-type: none;
     display: flex;
+    flex-shrink: 1;
     margin-bottom: 36px;
     margin-top: 0;
     margin-left: 0;
@@ -224,7 +221,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 468px;
+    max-width: 466px;
     margin: 0;
 }
 
