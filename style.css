@@ -62,8 +62,10 @@ li {
     margin-top: 16px;
     margin-left: 20px;
 }
-    
-.nav-part, .line, .title-testimonials {
+
+.nav-part,
+.line,
+.title-testimonials {
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -83,6 +85,7 @@ li {
     justify-content: flex-end;
     align-items: center;
 }
+
 .uniq {
     margin-right: 15px;
 }
@@ -101,6 +104,7 @@ li {
     padding-bottom: 134px;
     margin: 0 auto;
 }
+
 .hero-element {
     box-sizing: border-box;
     width: 690px;
@@ -111,6 +115,7 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
 h1 {
     color: #000;
     text-align: center;
@@ -148,7 +153,7 @@ h1 {
     color: #000;
     font-family: "Playfair Display";
     font-size: 86px;
-    font-style: normal; 
+    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
@@ -171,10 +176,12 @@ h1 {
     font-weight: 400;
     line-height: normal;
 }
+
 .designers-section {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .slider {
     display: grid;
     gap: 20px;
@@ -184,26 +191,33 @@ h1 {
     scroll-behavior: smooth;
     padding-left: 22px;
 }
-p.bold-part-text, .skills > li {
+
+p.bold-part-text,
+.skills>li {
     padding: 0;
     margin: 0;
     margin-right: 5px;
 }
+
 .img-designers {
     margin-bottom: 24px;
 }
+
 .skills-designers {
     display: flex;
     margin-bottom: 5px;
 }
-.designer-jess-wonder > p {
+
+.designer-jess-wonder>p {
     text-align: center;
     margin-left: 85px;
 }
-.designer-jess-wonder > h3 {
+
+.designer-jess-wonder>h3 {
     text-align: center;
     margin-left: 25px;
 }
+
 .skills-designer-jess {
     display: flex;
     justify-content: center;
@@ -211,9 +225,11 @@ p.bold-part-text, .skills > li {
     margin-left: 142px;
 
 }
+
 ul.skills {
     display: flex;
 }
+
 .title-design {
     color: #000;
     font-family: Roboto;
