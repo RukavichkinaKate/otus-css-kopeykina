@@ -148,7 +148,7 @@ h1 {
     color: #000;
     font-family: "Playfair Display";
     font-size: 86px;
-    font-style: normal;
+    font-style: normal; 
     font-weight: 500;
     line-height: normal;
 }
@@ -175,7 +175,45 @@ h1 {
     max-width: 1440px;
     margin: 0 auto;
 }
+.slider {
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+    align-items: end;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    padding-left: 22px;
+}
+p.bold-part-text, .skills > li {
+    padding: 0;
+    margin: 0;
+    margin-right: 5px;
+}
+.img-designers {
+    margin-bottom: 24px;
+}
+.skills-designers {
+    display: flex;
+    margin-bottom: 5px;
+}
+.designer-jess-wonder > p {
+    text-align: center;
+    margin-left: 85px;
+}
+.designer-jess-wonder > h3 {
+    text-align: center;
+    margin-left: 25px;
+}
+.skills-designer-jess {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-left: 142px;
 
+}
+ul.skills {
+    display: flex;
+}
 .title-design {
     color: #000;
     font-family: Roboto;
@@ -183,6 +221,8 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 30px;
+    margin-left: 112px;
 }
 
 .name-designer {
@@ -193,6 +233,7 @@ h1 {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .bold-part-text {
@@ -202,6 +243,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0;
 }
 
 .skills {
@@ -211,6 +253,8 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0;
+    padding: 0;
 }
 
 .feedback {
