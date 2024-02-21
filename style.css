@@ -190,6 +190,7 @@ h1 {
     overflow: scroll;
     scroll-behavior: smooth;
     padding-left: 22px;
+    object-fit: contain;
 }
 
 p.bold-part-text,
@@ -201,6 +202,7 @@ p.bold-part-text,
 
 .img-designers {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .skills-designers {
