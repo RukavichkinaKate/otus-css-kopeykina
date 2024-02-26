@@ -178,7 +178,7 @@ h1 {
 }
 
 .designers-section {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
 }
 
@@ -217,14 +217,14 @@ p.bold-part-text,
 
 .designer-jess-wonder>h3 {
     text-align: center;
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 .skills-designer-jess {
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
-    margin-left: 142px;
+    margin-left: 180px;
 
 }
 
