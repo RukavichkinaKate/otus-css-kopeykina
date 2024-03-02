@@ -706,3 +706,69 @@ address {
         display: none;
     }
 }
+@media screen and (max-width: 767px) {
+    .navigation {
+        display: none;
+    }
+    .hero-section {
+        height: 841px;
+        padding: 0;
+        background-size: auto 55%;
+        background-position: left bottom;
+        margin-bottom: 15%;
+    }
+    .hero-element {
+        white-space: nowrap;
+        padding-top: 23%;
+    }
+    h1 {
+        font-weight: 400;
+        font-size: 80px;
+    }
+    .section-katya-bio {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .title-biography {
+        order: -1;
+        transform: rotate(360deg);
+        font-size: 18px;
+        translate: -87px -10px;
+    }
+    .content-katya {
+        order: -2;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        padding: 0;
+    }
+    .work-position {
+        order: -3;
+        margin-top: 0;
+        padding-top: 5%;
+    }
+    .qualification-katya {
+        order: -2;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .slash {
+        display: none;
+    }
+    .qualification-katya li::before {
+        content: "- ";
+    }
+    .quote-biography {
+        order: -1;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .director-name {
+        white-space: nowrap;
+    }
+
+}
