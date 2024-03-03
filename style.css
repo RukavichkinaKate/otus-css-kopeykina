@@ -729,12 +729,13 @@ address {
         display: flex;
         flex-wrap: wrap;
         margin-top: 0;
+        justify-content: space-around;
     }
     .title-biography {
         order: -1;
         transform: rotate(360deg);
         font-size: 18px;
-        translate: -87px -10px;
+        translate: -70px -10px;
     }
     .content-katya {
         order: -2;
@@ -754,7 +755,8 @@ address {
         order: -2;
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 55%;
+        margin-bottom: 20%;
     }
     .slash {
         display: none;
@@ -766,9 +768,40 @@ address {
         order: -1;
         font-size: 30px;
         font-weight: 300;
+        max-width: 339px;
+        padding-top: 1%;
+        margin-bottom: 20%;
+    }
+    .quote-biography>p {
+        margin: 0;
+        height: 229px;
+        white-space: pre-line;
     }
     .director-name {
         white-space: nowrap;
+        font-size: 64px;
+        font-weight: 300;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .director-name::before {
+        content: "- ";
+    }
+    .img-katya {
+        position: relative;
+    }
+    .img-katya img {
+        display: none;
+    }
+    .img-katya::after {
+        content: "";
+        display:block;
+        background-image: url(img/katya-mills-photo.jpg);
+        background-position: center;
+        background-repeat: no-repeat;   
+        width: 100vh;
+        height: 450px;
     }
 
 }
