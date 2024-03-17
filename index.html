@@ -13,51 +13,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Mod Studio</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navigation">
-            <a class="nav-title" href="#main_part">Mod</a>
-            <ul class="menu">
-                <li><a class="nav-part" href="#part_bio">Biography</a></li>
-                <li><a class="nav-part line" href="#part_design">Designers</a></li>
-                <li><a class="nav-part" href="#part_testimonials">Testimonials</a></li>
-                <li class="uniq"><a class="nav-part" href="#part_st_points">Strong points</a></li>
+    <header class="header">
+        <nav class="header__navigation"> 
+            <a class="logo" href="#main_part">Mod</a>
+            <ul class="menu-list">
+                <li class="menu-list__item"><a class="menu-list__link" href="#part_bio">Biography</a></li>
+                <li class="menu-list__item"><a class="menu-list__link--line" href="#part_design">Designers</a></li>
+                <li class="menu-list__item"><a class="menu-list__link" href="#part_testimonials">Testimonials</a></li>
+                <li class="menu-list__item--uniq"><a class="menu-list__link" href="#part_st_points">Strong points</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="hero-section">
             <div class="hero-element">
-                <header>
-                    <h1 id="main_part">Mod Studio</h1>
+                <header class="hero-element__header">
+                    <h1 class="hero-element__title" id="main_part">Mod Studio</h1>
                 </header>
                 <!-- <img src="img/Mod-studio-icon.svg" alt="decorative image"> -->
-                <p class="title-description">Modern Web Studio</p>
+                <p class="hero-element__title-description">Modern Web Studio</p>
             </div>
         </section>
 
-        <section class="section-katya-bio">
-            <div class="img-katya">
-                <img src="/img/katya-mills-photo.jpg" alt="Katya Mills photo">
+        <section class="katya-biography">
+            <div class="katya-biography__photo">
+                <img class="katya-biography__img" src="/img/katya-mills-photo.jpg" alt="Katya Mills photo">
             </div>
-            <header class="title-biography">
-                <h2 id="part_bio">Biography</h2>
+            <header class="katya-biography__header">
+                <h2 class="katya-biography__title" id="part_bio">Biography</h2>
             </header>
             <div class="content-katya">
-                <h3 class="director-name">Katya Mills</h3>
-            <p class="work-position">Art Director</p>
-            <ul class="qualification-katya">
-                <li>Scenography</li>
-                <li><span class="slash">/</span> Styling</li>
-                <li><span class="slash">/</span> Creative Photography</li>
-                <li><span class="slash">/</span> Design</li>
+                <h3 class="content-katya__title">Katya Mills</h3>
+            <p class="content-katya__position">Art Director</p>
+            <ul class="content-katya__qualification-list">
+                <li class="content-katya__qualification-item">Scenography</li>
+                <li class="content-katya__qualification-item"><span class="slash">/</span> Styling</li>
+                <li class="content-katya__qualification-item"><span class="slash">/</span> Creative Photography</li>
+                <li class="content-katya__qualification-item"><span class="slash">/</span> Design</li>
             </ul>
-            <blockquote class="quote-biography">
-                <p>“The more I deal with the work as something that is my own, as something that is personal, the
+            <blockquote class="content-katya__quote">
+                <p class="content-katya__quote-text">“The more I deal with the work as something that is my own, as something that is personal, the
                     more
                     successful it is.”
                 </p>
@@ -65,59 +65,59 @@
             </div>
         </section>
 
-        <section class="designers-section">
-            <header class="title-design">
-                <h2 id="part_design">Designers</h2>
+        <section class="designers">
+            <header class="designers__header">
+                <h2 class="designers__title" id="part_design">Designers</h2>
             </header>
-            <div class="slider">
+            <div class="slider-designers">
                 <div class="designer-jess-wonder">
-                    <div class="img-designers"><img srcset="/img/Jess-Wonder-photo-337w.jpg 337w, /img/Jess-Wonder-photo.jpg 572w" sizes="(min-width: 768px) 572px, (max-width: 767px) 337px" src="/img/Jess-Wonder-photo.jpg" alt="Jess Wonder photo"></div>
-                    <h3 class="name-designer">Jess Wonder</h3>
-                    <p class="skills"><span class="bold-part-text">From/ </span>Be more flower</p>
-                    <div class="skills-designer-jess">
+                    <div class="designer-jess-wonder__photo"><img class="designer-jess-wonder__img" srcset="/img/Jess-Wonder-photo-337w.jpg 337w, /img/Jess-Wonder-photo.jpg 572w" sizes="(min-width: 768px) 572px, (max-width: 767px) 337px" src="/img/Jess-Wonder-photo.jpg" alt="Jess Wonder photo"></div>
+                    <h3 class="designer-jess-wonder__title">Jess Wonder</h3>
+                    <p class="designer-jess-wonder__from"><span class="bold-part-text">From/ </span>Be more flower</p>
+                    <div class="designer-jess-wonder__skills">
                         <p class="bold-part-text">Skills/ </p>
-                        <ul class="skills">
-                            <li>Design Strategy / </li>
-                            <li>Marketing</li>
+                        <ul class="designer-jess-wonder__skills-list">
+                            <li class="designer-jess-wonder__skills-item">Design Strategy / </li>
+                            <li class="designer-jess-wonder__skills-item">Marketing</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="designer-kameron-clein1">
-                    <div class="img-designers"><img srcset="/img/Kameron-Clein-photo.jpg 1x, /img/Kameron-Clein-photo-2x.jpg 2x" src="/img/Kameron-Clein-photo.jpg" alt="Kameron Clein photo"></div>
-                    <h3 class="name-designer">Kameron Clein</h3>
-                    <p class="skills"><span class="bold-part-text">From/ </span>Be more flower</p>
-                    <div class="skills-designers">
+                    <div class="designer-kameron-clein1__photo"><img class="designer-kameron-clein1__img" srcset="/img/Kameron-Clein-photo.jpg 1x, /img/Kameron-Clein-photo-2x.jpg 2x" src="/img/Kameron-Clein-photo.jpg" alt="Kameron Clein photo"></div>
+                    <h3 class="designer-kameron-clein1__title">Kameron Clein</h3>
+                    <p class="designer-kameron-clein1__from"><span class="bold-part-text">From/ </span>Be more flower</p>
+                    <div class="designer-kameron-clein1__skills">
                         <p class="bold-part-text">Skills/ </p>
-                    <ul class="skills">
-                        <li>Design Strategy / </li>
-                        <li>Marketing</li>
+                    <ul class="designer-kameron-clein1__skills-list">
+                        <li class="designer-kameron-clein1__skills-item">Design Strategy / </li>
+                        <li class="designer-kameron-clein1__skills-item">Marketing</li>
                     </ul>
                     </div>
                 </div>
 
                 <div class="designer-louisse-red">
-                    <div class="img-designers"><img srcset="/img/LOUISSE-RED-photo.jpg 1x, /img/LOUISSE-RED-photo-2x.jpg 2x" src="/img/LOUISSE-RED-photo.jpg" alt="Louisse Red photo"></div>
-                    <h3 class="name-designer">LOUISSE RED</h3>
-                    <p class="skills"><span class="bold-part-text">From/ </span>Be more flower</p>
-                    <div class="skills-designers">
+                    <div class="designer-louisse-red__photo"><img class="designer-louisse-red__img" srcset="/img/LOUISSE-RED-photo.jpg 1x, /img/LOUISSE-RED-photo-2x.jpg 2x" src="/img/LOUISSE-RED-photo.jpg" alt="Louisse Red photo"></div>
+                    <h3 class="designer-louisse-red__title">LOUISSE RED</h3>
+                    <p class="designer-louisse-red__from"><span class="bold-part-text">From/ </span>Be more flower</p>
+                    <div class="designer-louisse-red__skills">
                         <p class="bold-part-text">Skills/ </p>
-                    <ul class="skills">
-                        <li>Design Strategy / </li>
-                        <li>Marketing</li>
+                    <ul class="designer-louisse-red__skills-list">
+                        <li class="designer-louisse-red__skills-item">Design Strategy / </li>
+                        <li class="designer-louisse-red__skills-item">Marketing</li>
                     </ul>
                     </div>                
                 </div>
 
                 <div class="designer-kameron-clein2">
-                    <div class="img-designers"><img srcset="/img/Kameron-Clein-photo.jpg 1x, /img/Kameron-Clein-photo-2x.jpg 2x" src="/img/Kameron-Clein-photo.jpg" alt="Kameron Clein photo"></div>
-                    <h3 class="name-designer">Kameron Clein</h3>
-                    <p class="skills"><span class="bold-part-text">From/ </span>Be more flower</p>
-                    <div class="skills-designers">
+                    <div class="designer-kameron-clein2__photo"><img class="designer-kameron-clein2__img" srcset="/img/Kameron-Clein-photo.jpg 1x, /img/Kameron-Clein-photo-2x.jpg 2x" src="/img/Kameron-Clein-photo.jpg" alt="Kameron Clein photo"></div>
+                    <h3 class="designer-kameron-clein2__title">Kameron Clein</h3>
+                    <p class="designer-kameron-clein2__from"><span class="bold-part-text">From/ </span>Be more flower</p>
+                    <div class="designer-kameron-clein2__skills">
                         <p class="bold-part-text">Skills/ </p>
-                    <ul class="skills">
-                        <li>Design Strategy / </li>
-                        <li>Marketing</li>
+                    <ul class="designer-kameron-clein2__skills-list">
+                        <li class="designer-kameron-clein2__skills-item">Design Strategy / </li>
+                        <li class="designer-kameron-clein2__skills-item">Marketing</li>
                     </ul>
                     </div>                  
                 </div>
