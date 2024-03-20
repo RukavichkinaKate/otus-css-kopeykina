@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav class="navigation">
             <a class="nav-title" href="#main_part">Mod</a>
             <ul class="menu">
@@ -42,7 +42,11 @@
 
         <section class="section-katya-bio">
             <div class="img-katya">
-                <img src="/img/katya-mills-photo.jpg" alt="Katya Mills photo">
+                <picture>
+                    <source srcset="/img/katya-mills-photo.jpg" media="(min-width: 767px)">
+                    <source srcset="/img/katya-mills-photo-mobile.jpg" media="(min-width: 350px)">
+                    <img src="/img/katya-mills-photo.jpg" alt="Katya Mills photo">
+                </picture>
             </div>
             <header class="title-biography">
                 <h2 id="part_bio">Biography</h2>
@@ -71,7 +75,14 @@
             </header>
             <div class="slider">
                 <div class="designer-jess-wonder">
-                    <div class="img-designers"><img srcset="/img/Jess-Wonder-photo-337w.jpg 337w, /img/Jess-Wonder-photo.jpg 572w" sizes="(min-width: 768px) 572px, (max-width: 767px) 337px" src="/img/Jess-Wonder-photo.jpg" alt="Jess Wonder photo"></div>
+                    <div class="img-designers">
+                        <picture>
+                            <source srcset="/img/Jess-Wonder-photo.jpg" media="(min-width: 768px)">
+                            <source srcset="/img/Jess-Wonder-photo-337w.jpg" media="(min-width: 350px)">
+                            <!-- <img srcset="/img/Jess-Wonder-photo-337w.jpg 337w, /img/Jess-Wonder-photo.jpg 572w" sizes="(min-width: 768px) 572px, (max-width: 767px) 337px" src="/img/Jess-Wonder-photo.jpg" alt="Jess Wonder photo"> -->
+                            <img src="/img/Jess-Wonder-photo.jpg" alt="Jess Wonder photo">
+                        </picture>
+                    </div>
                     <h3 class="name-designer">Jess Wonder</h3>
                     <p class="skills"><span class="bold-part-text">From/ </span>Be more flower</p>
                     <div class="skills-designer-jess">

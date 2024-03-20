@@ -712,15 +712,17 @@ address {
     .body {
         padding-bottom: 82px;
     }
+    .header {
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+    }
     .navigation {
         display: flex;
         align-items: center;
         height: 82px;
-        width: 99.5%;
-        position: fixed;
         background-color: #fff;
-        bottom: 0;
-        z-index: 1;
         border: 1px solid #000;
         margin-bottom: 0.2%;
     }
@@ -849,9 +851,9 @@ address {
         position: relative;
     }
     .img-katya img {
-        display: none;
+        /* display: none; */
     }
-    .img-katya::after {
+    /* .img-katya::after {
         content: "";
         display:block;
         background-image: url(/img/katya-mills-photo-mobile.jpg);
@@ -859,7 +861,7 @@ address {
         background-repeat: no-repeat;   
         width: 90vh;
         height: 400px;
-    }
+    } */
     .designers-section {
         margin-bottom: 13.5%;
     }
