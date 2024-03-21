@@ -1,0 +1,30 @@
+@import "./fonts";
+@import "./variables";
+@import "./mixins";
+
+body {
+    @include main-font;
+    margin: 0 auto;
+    @include flex-column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+@import "./navigation.scss";
+@import "./hero-section.scss";
+@import "./biography.scss";
+@import "./designers.scss";
+@import "./testimonials.scss";
+@import "./strong-points.scss";
+@import "./footer.scss";

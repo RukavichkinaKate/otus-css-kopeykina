@@ -1,0 +1,75 @@
+/* @font-face {
+    font-family: "Playfair Display Medium";
+    src:
+        url("../PlayfairDisplay-Medium.ttf") format("ttf"),
+        url("../PlayfairDisplay-Medium.woff") format("woff"),
+        url("../PlayfairDisplay-Medium.woff2") format("woff2"),
+        url("../PlayfairDisplay-Medium.svg") format("svg");
+    font-weight: 500;
+} */
+/* @font-face {
+    font-family: "Playfair Display SemiBold";
+    src:
+        url("../PlayfairDisplay-SemiBold.ttf") format("ttf"),
+        url("../PlayfairDisplay-SemiBold.woff") format("woff"),
+        url("../PlayfairDisplay-SemiBold.woff2") format("woff2"),
+        url("../PlayfairDisplay-SemiBold.svg") format("svg");
+    font-weight: 600;
+} */
+/* @font-face {
+    font-family: "Playfair Display Regular";
+    src:
+        url("../PlayfairDisplay-Regular.ttf") format("ttf"),
+        url("../PlayfairDisplay-Regular.woff") format("woff"),
+        url("../PlayfairDisplay-Regular.woff2") format("woff2"),
+        url("../PlayfairDisplay-Regular.svg") format("svg");
+    font-weight: 400;
+} */
+.footer {
+  background-color: #0D0D0D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 1% 3% 1%;
+}
+
+.footer__address {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.footer__product {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 9%;
+}
+
+.footer__product--bold-title {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.footer__rights {
+  color: #FFF;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=footer.css.map */
