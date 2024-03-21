@@ -5,10 +5,88 @@
     font-weight: font-weight;
     line-height: $line-height;
 }
+
 @mixin roboto-font ($font-size, $font-weight, $line-height) {
     font-family: Roboto;
     font-size: $font-size;
     font-style: normal;
     font-weight: $font-weight;
     line-height: $line-height;
+}
+
+@mixin flex-whith-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@mixin bitter-font ($font-size) {
+    font-family: Bitter;
+    font-size: $font-size;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@mixin main-font {
+    font-family: "Playfair Display Regular", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+}
+
+@mixin flexbox-Sbtw {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+}
+
+@mixin slider-scroll {
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+@mixin flex-column {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+}
+
+@mixin flex-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+}
+
+@mixin mobile-font-quote {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+@mixin menu-item-mobile {
+    width: 23px;
+    text-overflow: clip;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }

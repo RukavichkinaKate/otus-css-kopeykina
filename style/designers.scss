@@ -1,0 +1,162 @@
+@import "./fonts";
+@import "./variables";
+@import "./mixins";
+
+.designers {
+    margin: 0 auto;
+    margin-bottom: 132px;
+}
+
+.slider-designers {
+    display: grid;
+    gap: 1.5%;
+    grid-auto-flow: column;
+    align-items: end;
+    @include slider-scroll;
+    padding-left: 1.5%;
+    object-fit: contain;
+    padding-bottom: 1%;
+}
+
+p.bold-part-text,
+.designer-jess-wonder__skills-item,
+.designer-kameron-clein1__skills-item,
+.designer-louisse-red__skills-item,
+.designer-kameron-clein2__skills-item {
+    padding: 0;
+    margin: 0;
+    margin-right: 5px;
+}
+
+// .img-designers, 
+.designer-jess-wonder__photo,
+.designer-kameron-clein1__photo,
+.designer-louisse-red__photo,
+.designer-kameron-clein2__photo {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+// .skills-designers,
+.designer-jess-wonder__skills,
+.designer-kameron-clein1__skills,
+.designer-louisse-red__skills,
+.designer-kameron-clein2__skills {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.designer-jess-wonder__from {
+    text-align: center;
+    // margin-left: 52px;
+    display: flex;
+    justify-content: flex-end;
+    width: 67%;
+}
+
+.designer-jess-wonder__skills {
+    @include flex-center;
+    margin-bottom: 5px;
+    margin-left: 152px;
+
+}
+
+// ul.skills, 
+.designer-jess-wonder__skills-list,
+.designer-kameron-clein1__skills-list,
+.designer-louisse-red__skills-list,
+.designer-kameron-clein2__skills-list {
+    display: flex;
+}
+
+.designers__title {
+    color: $text-color-main;
+    @include roboto-font(24px, 700, normal);
+    margin-left: 137px;
+}
+
+// .name-designer, 
+.designer-jess-wonder__title,
+.designer-kameron-clein1__title,
+.designer-louisse-red__title,
+.designer-kameron-clein2__title {
+    color: $text-color-main;
+    @include roboto-font(16px, 700, normal);
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.designer-jess-wonder__title {
+    display: flex;
+    justify-content: center;
+}
+
+.bold-part-text {
+    color: $text-color-main;
+    @include roboto-font (16px, 700, normal);
+    margin: 0;
+}
+
+// .skills, 
+.designer-jess-wonder__from,
+.designer-jess-wonder__skills-list,
+.designer-kameron-clein1__from,
+.designer-kameron-clein1__skills-list,
+.designer-louisse-red__from,
+.designer-louisse-red__skills-list,
+.designer-kameron-clein2__from,
+.designer-kameron-clein2__skills-list {
+    color: $text-color-main;
+    @include roboto-font (16px, 400, normal);
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    .designers {
+        transform: scale(0.85);
+        margin-top: -11%;
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .designers {
+        margin-bottom: 13.5%;
+    }
+
+    .slider-designers {
+        margin-left: 2%;
+        gap: 4%;
+    }
+
+    .designers__title {
+        font-weight: 700;
+        font-size: 18px;
+        margin-left: 3.5%;
+        margin-bottom: 6%;
+    }
+
+    .designer-jess-wonder__img {
+        max-width: 310px;
+        height: 440px;
+    }
+
+    .designer-jess-wonder__title {
+        justify-content: flex-start;
+        text-align: start;
+        margin-left: 0;
+    }
+
+    .designer-jess-wonder__from {
+        text-align: start;
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .designer-jess-wonder__skills {
+        display: flex;
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+}

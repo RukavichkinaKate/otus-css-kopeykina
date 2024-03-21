@@ -1,0 +1,81 @@
+@import "./fonts";
+@import "./variables";
+@import "./mixins";
+
+.hero-section {
+    background-size: cover;
+    background-image: url(../img/Mod-studio-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+    padding-top: 136px;
+    padding-bottom: 114px;
+    margin: 0 auto;
+}
+
+.hero-element {
+    box-sizing: border-box;
+    max-width: 690px;
+    height: 360px;
+    padding: 110px 20px;
+    background-color: $bg-color-main;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-element__title {
+    color: $text-color-main;
+    text-align: center;
+    @include playfair-display(500, 120%);
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.hero-element__title-description {
+    color: $text-color-main;
+    text-align: center;
+    @include roboto-font(20px, 500, normal);
+    margin-top: 14px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    .hero-section {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .hero-element {
+        transform: scale(0.85);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero-section {
+        height: 764px;
+        padding: 0;
+        background-size: auto 55%;
+        background-position: left bottom;
+        margin-bottom: 15%;
+    }
+
+    .hero-element {
+        white-space: nowrap;
+        padding-top: 23%;
+        height: 340px;
+        @include flex-column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-element__title {
+        font-weight: 400;
+        font-size: 70px;
+        padding-top: 10%;
+    }
+
+    .hero-element__title-description {
+        font-size: 18px;
+    }
+}
