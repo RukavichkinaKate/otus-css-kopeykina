@@ -6,6 +6,12 @@ html,
 body {
   scrollbar-gutter: stable;
 }
+.contact-form {
+    background-image: url(../img/contact-form-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
 
 .popup {
     width: 480px;
@@ -16,6 +22,17 @@ body {
     border: 0;
 }
 
+.popup::after {
+    content: "";
+    position: fixed;
+    width: 480px;
+    height: 588px;
+    border: 2px solid #fff;
+    transform: rotate(2deg);
+    translate: -22px -560px;
+    border-radius: 10px;
+    z-index: -1;
+}
 .popup__title {
     @include roboto-font(24px, 700, normal);
     margin: 0;
