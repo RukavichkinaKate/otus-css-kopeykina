@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav class="navigation">
             <a class="nav-title" href="#main_part">Mod</a>
             <ul class="menu">
@@ -42,7 +42,11 @@
 
         <section class="section-katya-bio">
             <div class="img-katya">
-                <img src="/img/katya-mills-photo.jpg" alt="Katya Mills photo">
+                <picture>
+                    <source srcset="/img/katya-mills-photo.jpg" media="(min-width: 767px)">
+                    <source srcset="/img/katya-mills-photo-mobile.jpg" media="(min-width: 350px)">
+                    <img src="/img/katya-mills-photo.jpg" alt="Katya Mills photo">
+                </picture>
             </div>
             <header class="title-biography">
                 <h2 id="part_bio">Biography</h2>
@@ -52,9 +56,9 @@
             <p class="work-position">Art Director</p>
             <ul class="qualification-katya">
                 <li>Scenography</li>
-                <li>/ Styling</li>
-                <li>/ Creative Photography</li>
-                <li>/ Design</li>
+                <li><span class="slash">/</span> Styling</li>
+                <li><span class="slash">/</span> Creative Photography</li>
+                <li><span class="slash">/</span> Design</li>
             </ul>
             <blockquote class="quote-biography">
                 <p>“The more I deal with the work as something that is my own, as something that is personal, the
@@ -71,7 +75,14 @@
             </header>
             <div class="slider">
                 <div class="designer-jess-wonder">
-                    <div class="img-designers"><img src="/img/Jess-Wonder-photo.jpg" alt="Jess Wonder photo"></div>
+                    <div class="img-designers">
+                        <picture>
+                            <source srcset="/img/Jess-Wonder-photo.jpg" media="(min-width: 768px)">
+                            <source srcset="/img/Jess-Wonder-photo-337w.jpg" media="(min-width: 350px)">
+                            <!-- <img srcset="/img/Jess-Wonder-photo-337w.jpg 337w, /img/Jess-Wonder-photo.jpg 572w" sizes="(min-width: 768px) 572px, (max-width: 767px) 337px" src="/img/Jess-Wonder-photo.jpg" alt="Jess Wonder photo"> -->
+                            <img src="/img/Jess-Wonder-photo.jpg" alt="Jess Wonder photo">
+                        </picture>
+                    </div>
                     <h3 class="name-designer">Jess Wonder</h3>
                     <p class="skills"><span class="bold-part-text">From/ </span>Be more flower</p>
                     <div class="skills-designer-jess">
@@ -84,7 +95,7 @@
                 </div>
 
                 <div class="designer-kameron-clein1">
-                    <div class="img-designers"><img src="/img/Kameron-Clein-photo.jpg" alt="Kameron Clein photo"></div>
+                    <div class="img-designers"><img srcset="/img/Kameron-Clein-photo.jpg 1x, /img/Kameron-Clein-photo-2x.jpg 2x" src="/img/Kameron-Clein-photo.jpg" alt="Kameron Clein photo"></div>
                     <h3 class="name-designer">Kameron Clein</h3>
                     <p class="skills"><span class="bold-part-text">From/ </span>Be more flower</p>
                     <div class="skills-designers">
@@ -97,7 +108,7 @@
                 </div>
 
                 <div class="designer-louisse-red">
-                    <div class="img-designers"><img src="/img/LOUISSE-RED-photo.jpg" alt="Louisse Red photo"></div>
+                    <div class="img-designers"><img srcset="/img/LOUISSE-RED-photo.jpg 1x, /img/LOUISSE-RED-photo-2x.jpg 2x" src="/img/LOUISSE-RED-photo.jpg" alt="Louisse Red photo"></div>
                     <h3 class="name-designer">LOUISSE RED</h3>
                     <p class="skills"><span class="bold-part-text">From/ </span>Be more flower</p>
                     <div class="skills-designers">
@@ -110,7 +121,7 @@
                 </div>
 
                 <div class="designer-kameron-clein2">
-                    <div class="img-designers"><img src="/img/Kameron-Clein-photo.jpg" alt="Kameron Clein photo"></div>
+                    <div class="img-designers"><img srcset="/img/Kameron-Clein-photo.jpg 1x, /img/Kameron-Clein-photo-2x.jpg 2x" src="/img/Kameron-Clein-photo.jpg" alt="Kameron Clein photo"></div>
                     <h3 class="name-designer">Kameron Clein</h3>
                     <p class="skills"><span class="bold-part-text">From/ </span>Be more flower</p>
                     <div class="skills-designers">
@@ -187,7 +198,6 @@
                         <li>Architecture</li>
                         <li>Design</li>
                         <li>Celebrations</li>
-                        <li>Artistic</li>
                         <li>Fashion</li>
                         <li>Nature</li>
                     </ul>    

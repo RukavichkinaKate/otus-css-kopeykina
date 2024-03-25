@@ -707,3 +707,358 @@ address {
         display: none;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .body {
+        padding-bottom: 82px;
+    }
+    .header {
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+    }
+    .navigation {
+        display: flex;
+        align-items: center;
+        height: 82px;
+        background-color: #fff;
+        border: 1px solid #000;
+        margin-bottom: 0.2%;
+    }
+    .nav-title {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0;
+        margin: 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu li {
+        width: 23.5px;
+        text-overflow: clip;
+        overflow: hidden;
+        margin: 0;
+    }
+    .menu a {
+        font-weight: 400;
+        font-size: 40px;
+    }
+    ul.menu li {
+        margin: 0;
+    }
+    .uniq {
+        white-space: nowrap;
+    }
+    .hero-section {
+        height: 764px;
+        padding: 0;
+        background-size: auto 55%;
+        background-position: left bottom;
+        margin-bottom: 15%;
+    }
+    .hero-element {
+        white-space: nowrap;
+        padding-top: 23%;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        font-weight: 400;
+        font-size: 70px;
+        padding-top: 10%;
+    }
+    .hero-element>p {
+        font-size: 18px;
+    }
+    .section-katya-bio {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+        justify-content: space-around;
+        gap: 0;
+        margin-bottom: 18%;
+    }
+    .title-biography {
+        order: -1;
+        width: 5%;
+    }
+    .title-biography>h2 {
+        font-size: 18px;
+        transform: rotate(360deg);
+        translate: -70px;
+
+    }
+    .content-katya {
+        order: -2;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        padding: 0;
+    }
+    .work-position {
+        order: -3;
+        margin-top: 0;
+        padding-top: 4%;
+        padding-left: 2%;
+    }
+    .qualification-katya {
+        order: -2;
+        display: flex;
+        flex-direction: column;
+        width: 56%;
+        margin-bottom: 13%;
+        padding-left: 2%;
+    }
+    .slash {
+        display: none;
+    }
+    .qualification-katya li::before {
+        content: "- ";
+    }
+    .quote-biography {
+        order: -1;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 11%;
+    }
+    .quote-biography>p {
+        margin: 0;
+        height: 229px;
+        white-space: pre-line;
+    }
+    .director-name {
+        white-space: nowrap;
+        font-size: 64px;
+        font-weight: 300;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 9%;
+        display: flex;
+    }
+    .director-name::before {
+        content: "- ";
+    }
+    .img-katya {
+        position: relative;
+    }
+    .img-katya img {
+        /* display: none; */
+    }
+    /* .img-katya::after {
+        content: "";
+        display:block;
+        background-image: url(/img/katya-mills-photo-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;   
+        width: 90vh;
+        height: 400px;
+    } */
+    .designers-section {
+        margin-bottom: 13.5%;
+    }
+    .slider {
+        margin-left: 2%;
+        gap: 4%;
+    }
+    .title-design>h2 {
+        font-weight: 700;
+        font-size: 18px;
+        margin-left: 3.5%;
+        margin-bottom: 6%;
+    }
+
+    .designer-jess-wonder img {
+        max-width: 310px;
+        height: 440px;
+    }
+    .designer-jess-wonder>h3 {
+        text-align: start;
+        margin-left: 0;
+    }
+    .designer-jess-wonder>p {
+        text-align: start;
+        margin-left: 0; 
+    }
+    .skills-designer-jess {
+        display: flex;
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+    .testimonials-section {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-bottom: 13%;
+    }
+    .title-testimonials {
+        order: 2;
+        transform: rotate(360deg);
+        align-self: flex-end;
+        translate: 0;
+        padding-right: 4.5%;
+    }
+    .title-testimonials>h2 {
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 25%;
+        margin-top: 10%;
+    }
+    .quote-testimonials {
+        order: 1;
+        max-width: 337px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    .quote-testimonials>p {
+        font-weight: 300;
+        font-size: 30px;
+        margin: 0;
+    }
+    .img-quote-testimonials {
+        margin-top: -7%;
+    }
+    .img-quote-testimonials img {
+        display: none;
+    }
+    .img-quote-testimonials::after {
+        content: "";
+        display: block;
+        background-image: url(/img/Testimonials-icon-2-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 390px;
+        margin: 0;
+    }
+    .img-link {
+        display: none;
+    }
+    .feedback, .web{
+        transform: rotate(360deg);
+    }
+    .link-testimonials {
+        padding: 0;
+    }
+    
+    .link-item {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100px;
+        justify-content: space-between;
+        max-width: 450px;
+    }
+    .link-1>h3 {
+        translate: 0;
+        margin: 0;
+    }
+    .link-1>p {
+        translate: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .link-2>h3 {
+        translate: 0;
+        margin: 0;
+    }
+    .link-2>p {
+        translate: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .link-3>h3 {
+        translate: 0;
+        margin: 0;
+    }
+    .link-3>p {
+        translate: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .link-1 {
+        padding-left: 5%;
+    }
+    .link-2 {
+        align-self: start;
+        padding-right: 11%;
+    }
+    .link-3 {
+        padding-left: 5%;
+    }
+    .title-strong-points {
+        translate: 0;
+        margin: 0;
+        padding-left: 3.5%;
+        margin-bottom: 4%;
+    }
+    .title-strong-points>h2 {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .without-header-SP {
+        margin: 0;
+        margin-bottom: 18%;
+    }
+    .SP-list {
+        order: -1;
+        padding: 0;
+        padding-right: 6%;
+    }
+    .SP-list>h3 {
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 100%;
+        padding-left: 4%;
+    }
+    .strengths-list {
+        padding-left: 14%;
+        margin-bottom: 0;
+        margin-top: 11%;
+    }
+    .strengths-list li {
+        font-weight: 400;
+        font-size: 24px;
+        margin-bottom: 5%;
+    }
+    .img-SP-2 {
+        display: none;
+    }
+    .img-SP-1 img {
+        height: 450px;
+        max-width: 310px;
+        padding-right: 20px;
+    }
+    .img-SP-3 img {
+        height: 450px;
+        max-width: 310px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .quote-biography {
+        max-width: 330px;
+    }
+    .director-name {
+        max-width: 300px;
+    }
+    .link-1 {
+        padding-left: 0;
+    }
+    .link-2 {
+        align-self: start;
+        padding-right: 0;
+    }
+    .link-3 {
+        padding-left: 0;
+    }
+}
