@@ -1330,6 +1330,10 @@ body {
   border: 0;
 }
 
+dialog:-internal-dialog-in-top-layer::backdrop {
+  background: rgba(0, 0, 0, 0.3);
+}
+
 .popup__title {
   font-family: Roboto;
   font-size: 24px;
