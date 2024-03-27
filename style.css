@@ -850,9 +850,7 @@ address {
     .img-katya {
         position: relative;
     }
-    .img-katya img {
-        /* display: none; */
-    }
+
     /* .img-katya::after {
         content: "";
         display:block;
