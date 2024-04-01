@@ -1,0 +1,190 @@
+/* @font-face {
+    font-family: "Playfair Display Medium";
+    src:
+        url("../PlayfairDisplay-Medium.ttf") format("ttf"),
+        url("../PlayfairDisplay-Medium.woff") format("woff"),
+        url("../PlayfairDisplay-Medium.woff2") format("woff2"),
+        url("../PlayfairDisplay-Medium.svg") format("svg");
+    font-weight: 500;
+} */
+/* @font-face {
+    font-family: "Playfair Display SemiBold";
+    src:
+        url("../PlayfairDisplay-SemiBold.ttf") format("ttf"),
+        url("../PlayfairDisplay-SemiBold.woff") format("woff"),
+        url("../PlayfairDisplay-SemiBold.woff2") format("woff2"),
+        url("../PlayfairDisplay-SemiBold.svg") format("svg");
+    font-weight: 600;
+} */
+/* @font-face {
+    font-family: "Playfair Display Regular";
+    src:
+        url("../PlayfairDisplay-Regular.ttf") format("ttf"),
+        url("../PlayfairDisplay-Regular.woff") format("woff"),
+        url("../PlayfairDisplay-Regular.woff2") format("woff2"),
+        url("../PlayfairDisplay-Regular.svg") format("svg");
+    font-weight: 400;
+} */
+.designers {
+  margin: 0 auto;
+  margin-bottom: 132px;
+}
+
+.slider-designers {
+  display: grid;
+  gap: 1.5%;
+  grid-auto-flow: column;
+  align-items: end;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  padding-left: 1.5%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-bottom: 1%;
+}
+
+.text-part--bold,
+.designer-jess-wonder__skills-item,
+.designer-kameron-clein1__skills-item,
+.designer-louisse-red__skills-item,
+.designer-kameron-clein2__skills-item {
+  padding: 0;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.designer-jess-wonder__photo,
+.designer-kameron-clein1__photo,
+.designer-louisse-red__photo,
+.designer-kameron-clein2__photo {
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.designer-jess-wonder__skills,
+.designer-kameron-clein1__skills,
+.designer-louisse-red__skills,
+.designer-kameron-clein2__skills {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.designer-jess-wonder__from {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 67%;
+}
+
+.designer-jess-wonder__skills {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-left: 142px;
+}
+
+.designer-jess-wonder__skills-list,
+.designer-kameron-clein1__skills-list,
+.designer-louisse-red__skills-list,
+.designer-kameron-clein2__skills-list {
+  display: flex;
+}
+
+.designers__title {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 137px;
+}
+
+.designer-jess-wonder__title,
+.designer-kameron-clein1__title,
+.designer-louisse-red__title,
+.designer-kameron-clein2__title {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.designer-jess-wonder__title {
+  display: flex;
+  justify-content: center;
+}
+
+.text-part--bold {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.designer-jess-wonder__from,
+.designer-jess-wonder__skills-list,
+.designer-kameron-clein1__from,
+.designer-kameron-clein1__skills-list,
+.designer-louisse-red__from,
+.designer-louisse-red__skills-list,
+.designer-kameron-clein2__from,
+.designer-kameron-clein2__skills-list {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  .designers {
+    transform: scale(0.85);
+    margin-top: -11%;
+    margin-left: -5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .designers {
+    margin-bottom: 13.5%;
+  }
+  .slider-designers {
+    margin-left: 2%;
+    gap: 4%;
+  }
+  .designers__title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 3.5%;
+    margin-bottom: 6%;
+  }
+  .designer-jess-wonder__img {
+    max-width: 310px;
+    height: 440px;
+  }
+  .designer-jess-wonder__title {
+    justify-content: flex-start;
+    text-align: start;
+    margin-left: 0;
+  }
+  .designer-jess-wonder__from {
+    text-align: start;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+  .designer-jess-wonder__skills {
+    display: flex;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+}/*# sourceMappingURL=designers.css.map */

@@ -1,0 +1,108 @@
+/* @font-face {
+    font-family: "Playfair Display Medium";
+    src:
+        url("../PlayfairDisplay-Medium.ttf") format("ttf"),
+        url("../PlayfairDisplay-Medium.woff") format("woff"),
+        url("../PlayfairDisplay-Medium.woff2") format("woff2"),
+        url("../PlayfairDisplay-Medium.svg") format("svg");
+    font-weight: 500;
+} */
+/* @font-face {
+    font-family: "Playfair Display SemiBold";
+    src:
+        url("../PlayfairDisplay-SemiBold.ttf") format("ttf"),
+        url("../PlayfairDisplay-SemiBold.woff") format("woff"),
+        url("../PlayfairDisplay-SemiBold.woff2") format("woff2"),
+        url("../PlayfairDisplay-SemiBold.svg") format("svg");
+    font-weight: 600;
+} */
+/* @font-face {
+    font-family: "Playfair Display Regular";
+    src:
+        url("../PlayfairDisplay-Regular.ttf") format("ttf"),
+        url("../PlayfairDisplay-Regular.woff") format("woff"),
+        url("../PlayfairDisplay-Regular.woff2") format("woff2"),
+        url("../PlayfairDisplay-Regular.svg") format("svg");
+    font-weight: 400;
+} */
+.hero-section {
+  background-size: cover;
+  background-image: url(../img/Mod-studio-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 380px;
+  padding-top: 136px;
+  padding-bottom: 114px;
+  margin: 0 auto;
+}
+
+.hero-element {
+  box-sizing: border-box;
+  max-width: 690px;
+  height: 360px;
+  padding: 110px 20px;
+  background-color: #FFF;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-element__title {
+  color: #000;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 86px;
+  font-style: normal;
+  font-weight: font-weight;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.hero-element__title-description {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 14px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  .hero-section {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .hero-element {
+    transform: scale(0.85);
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero-section {
+    height: 764px;
+    padding: 0;
+    background-size: auto 55%;
+    background-position: left bottom;
+    margin-bottom: 15%;
+  }
+  .hero-element {
+    white-space: nowrap;
+    padding-top: 23%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-element__title {
+    font-weight: 400;
+    font-size: 70px;
+    padding-top: 10%;
+  }
+  .hero-element__title-description {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=hero-section.css.map */
