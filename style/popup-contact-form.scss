@@ -1,0 +1,49 @@
+html,
+body {
+  scrollbar-gutter: stable;
+}
+
+.popup {
+    width: 480px;
+    height: 588px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0;
+}
+dialog:-internal-dialog-in-top-layer::backdrop {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.popup__title {
+    @include roboto-font(24px, 700, normal);
+}
+.popup__descriptions {
+    @include roboto-font(18px, 400, normal);  
+}
+
+.popup__form {
+    @include roboto-font(18px, 500, normal);
+    @include flex-column;
+}
+
+.popup__form--future {
+    height: 300px;
+    white-space: pre-line;
+}
+
+.popup__button {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+ .popup__button--close {
+    @include popup-button;
+    background-color: #fff;
+}
+.popup__button--submit {
+    @include popup-button;
+    background-color: #000;
+    color: #fff;
+}

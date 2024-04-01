@@ -90,3 +90,10 @@
     margin: 0;
     padding: 0;
 }
+
+@mixin popup-button {
+    width: 179px;
+    height: 55px;
+    border: 1.32px solid #566789;
+    border-radius: 8px;
+}
