@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/071f98df2e.js" crossorigin="anonymous"></script>
     <title>Mod Studio</title>
 </head>
 
@@ -88,12 +89,14 @@
                             <source srcset="/img/Jess-Wonder-photo.jpg" media="(min-width: 768px)">
                             <source srcset="/img/Jess-Wonder-photo-337w.jpg" media="(min-width: 350px)">
                             <!-- <img srcset="/img/Jess-Wonder-photo-337w.jpg 337w, /img/Jess-Wonder-photo.jpg 572w" sizes="(min-width: 768px) 572px, (max-width: 767px) 337px" src="/img/Jess-Wonder-photo.jpg" alt="Jess Wonder photo"> -->
+
                             <img class="designer-jess-wonder__img" src="/img/Jess-Wonder-photo.jpg" alt="Jess Wonder photo">
                         </picture>
                     </div>
                     <h3 class="designer-jess-wonder__title">Jess Wonder</h3>
                     <p class="designer-jess-wonder__from"><span class="text-part--bold">From/ </span>Be more flower</p>
                     <div class="designer-jess-wonder__skills">
+
                         <p class="text-part--bold">Skills/ </p>
                         <ul class="designer-jess-wonder__skills-list">
                             <li class="designer-jess-wonder__skills-item">Design Strategy / </li>
@@ -234,12 +237,12 @@
         <p class="popup__descriptions">Do you have any questions? Have something to say?
             Don't be shy, write to us:</p>
         <form class="popup-form" method="dialog">
-            <label class="popup-form__label">Name<input class="popup-form__input" name="name" placeholder="3+ Characters" required minlength="3" autofocus></label>
-            <label class="popup-form__label">E-mail<input class="popup-form__input" name="email" placeholder="name@email.com" type="email"></label>
-            <label class="popup-form__label">Comment<textarea class="popup-form__textarea" name="comment" placeholder="Some text..." rows="6"></textarea></label> 
+            <label class="popup-form__label">Name<input class="popup-form__input popup-form--name" name="name" placeholder="3+ Characters" required minlength="3" autofocus></label>
+            <label class="popup-form__label">E-mail<input class="popup-form__input popup-form--email" name="email" placeholder="name@email.com" type="email"></label>
+            <label class="popup-form__label">Comment<textarea class="popup-form__textarea popup-form--comment" name="comment" placeholder="Some text..." rows="6"></textarea></label> 
             <div class="popup__button">
                 <button class="popup__button--close" type="button" onclick="window.Dialog.close()" id="closeBtn">Cancel</button>
-                <button class="popup__button--submit" type="submit">+ Send</button>    
+                <button class="popup__button--submit" type="submit"><i class="fa-sharp fa-regular fa-plus fa-lg"></i> Send</button>    
             </div>
         </form>    
     </dialog>
