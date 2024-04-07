@@ -233,12 +233,10 @@
         <h3 class="popup__title">Get in touch</h3>
         <p class="popup__descriptions">Do you have any questions? Have something to say?
             Don't be shy, write to us:</p>
-        <form class="popup__form" action="">
-            <div class="popup__form--future">
-                Name
-                E-mail
-                Comment
-            </div>
+        <form class="popup-form" method="dialog">
+            <label class="popup-form__label">Name<input class="popup-form__input" name="name" placeholder="3+ Characters" required minlength="3" autofocus></label>
+            <label class="popup-form__label">E-mail<input class="popup-form__input" name="email" placeholder="name@email.com" type="email"></label>
+            <label class="popup-form__label">Comment<textarea class="popup-form__textarea" name="comment" placeholder="Some text..." rows="6"></textarea></label> 
             <div class="popup__button">
                 <button class="popup__button--close" type="button" onclick="window.Dialog.close()" id="closeBtn">Cancel</button>
                 <button class="popup__button--submit" type="submit">+ Send</button>    

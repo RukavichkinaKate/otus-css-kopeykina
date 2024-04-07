@@ -1,3 +1,7 @@
+@import "./fonts";
+@import "./variables";
+@import "./mixins";
+
 html,
 body {
   scrollbar-gutter: stable;
@@ -17,25 +21,47 @@ dialog:-internal-dialog-in-top-layer::backdrop {
 
 .popup__title {
     @include roboto-font(24px, 700, normal);
+    margin: 0;
 }
 .popup__descriptions {
     @include roboto-font(18px, 400, normal);  
 }
 
-.popup__form {
-    @include roboto-font(18px, 500, normal);
+.popup-form {
     @include flex-column;
+    justify-content: center;
+    align-content: center;
+    gap: 24px;
+}
+.popup-form__label, .popup__button--close, .popup__button--submit {
+    @include roboto-font(18px, 500, normal);
+}
+.popup-form__label {
+    @include flex-column;
+    gap: 6px;
 }
 
-.popup__form--future {
-    height: 300px;
-    white-space: pre-line;
+.popup-form__input, .popup-form__textarea {
+    box-sizing: border-box;
+    @include roboto-font(16px, 400, normal);
+    padding: 6px 10px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.popup-form__input {
+    height: 42px;
+}
+
+.popup-form__textarea {
+    height: 135px;
 }
 
 .popup__button {
     display: flex;
     justify-content: space-around;
-    padding: 5%;
+    padding: 0 5% 0 5%;
 }
 
  .popup__button--close {

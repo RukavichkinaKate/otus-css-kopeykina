@@ -1,5 +1,123 @@
+/* @font-face {
+    font-family: "Playfair Display Medium";
+    src:
+        url("../PlayfairDisplay-Medium.ttf") format("ttf"),
+        url("../PlayfairDisplay-Medium.woff") format("woff"),
+        url("../PlayfairDisplay-Medium.woff2") format("woff2"),
+        url("../PlayfairDisplay-Medium.svg") format("svg");
+    font-weight: 500;
+} */
+/* @font-face {
+    font-family: "Playfair Display SemiBold";
+    src:
+        url("../PlayfairDisplay-SemiBold.ttf") format("ttf"),
+        url("../PlayfairDisplay-SemiBold.woff") format("woff"),
+        url("../PlayfairDisplay-SemiBold.woff2") format("woff2"),
+        url("../PlayfairDisplay-SemiBold.svg") format("svg");
+    font-weight: 600;
+} */
+/* @font-face {
+    font-family: "Playfair Display Regular";
+    src:
+        url("../PlayfairDisplay-Regular.ttf") format("ttf"),
+        url("../PlayfairDisplay-Regular.woff") format("woff"),
+        url("../PlayfairDisplay-Regular.woff2") format("woff2"),
+        url("../PlayfairDisplay-Regular.svg") format("svg");
+    font-weight: 400;
+} */
+html,
+body {
+  scrollbar-gutter: stable;
+}
+
 .popup {
-  width: 500px;
-  height: 605px;
-  background-color: #FFF;
+  width: 480px;
+  height: 588px;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.popup__title {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.popup__descriptions {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.popup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 24px;
+}
+
+.popup-form__label, .popup__button--close, .popup__button--submit {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.popup-form__label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.popup-form__input, .popup-form__textarea {
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 6px 10px;
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.popup-form__input {
+  height: 42px;
+}
+
+.popup-form__textarea {
+  height: 135px;
+}
+
+.popup__button {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 5% 0 5%;
+}
+
+.popup__button--close {
+  width: 179px;
+  height: 55px;
+  border: 1.32px solid #566789;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.popup__button--submit {
+  width: 179px;
+  height: 55px;
+  border: 1.32px solid #566789;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
 }/*# sourceMappingURL=popup-contact-form.css.map */
