@@ -43,7 +43,7 @@
   padding-bottom: 1%;
 }
 
-p.bold-part-text,
+p.text-part--bold,
 .designer-jess-wonder__skills-item,
 .designer-kameron-clein1__skills-item,
 .designer-louisse-red__skills-item,
@@ -119,7 +119,7 @@ p.bold-part-text,
   justify-content: center;
 }
 
-.bold-part-text {
+.text-part--bold {
   color: #000;
   font-family: Roboto;
   font-size: 16px;

@@ -18,7 +18,7 @@
     padding-bottom: 1%;
 }
 
-p.bold-part-text,
+p.text-part--bold,
 .designer-jess-wonder__skills-item,
 .designer-kameron-clein1__skills-item,
 .designer-louisse-red__skills-item,
@@ -91,7 +91,7 @@ p.bold-part-text,
     justify-content: center;
 }
 
-.bold-part-text {
+.text-part--bold {
     color: $text-color-main;
     @include roboto-font (16px, 700, normal);
     margin: 0;
