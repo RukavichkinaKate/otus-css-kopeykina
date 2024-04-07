@@ -15,6 +15,9 @@ body {
     box-sizing: border-box;
     border: 0;
 }
+dialog:-internal-dialog-in-top-layer::backdrop {
+    background: rgba(0, 0, 0, 0.3);
+}
 
 .popup__title {
     @include roboto-font(24px, 700, normal);

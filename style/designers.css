@@ -43,7 +43,7 @@
   padding-bottom: 1%;
 }
 
-p.text-part--bold,
+.text-part--bold,
 .designer-jess-wonder__skills-item,
 .designer-kameron-clein1__skills-item,
 .designer-louisse-red__skills-item,
@@ -80,7 +80,7 @@ p.text-part--bold,
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
-  margin-left: 152px;
+  margin-left: 142px;
 }
 
 .designer-jess-wonder__skills-list,
