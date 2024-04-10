@@ -46,6 +46,10 @@ body {
   border: 0;
 }
 
+dialog:-internal-dialog-in-top-layer::backdrop {
+  background: rgba(0, 0, 0, 0.3);
+}
+
 .popup::after {
   content: "";
   position: fixed;
@@ -111,7 +115,21 @@ body {
 }
 
 .popup-form__input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   height: 42px;
+}
+
+.popup-form__input:hover {
+  background-color: rgb(221, 233, 235);
+  border: 1px solid lightskyblue;
+}
+
+.popup-form__input:focus {
+  border: 1px solid transparent;
+  outline: 3px solid lightskyblue;
+  transition: outline 0.1s linear;
 }
 
 .popup-form--name {
@@ -127,7 +145,23 @@ body {
 }
 
 .popup-form__textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-family: inherit;
+  resize: none;
   height: 135px;
+}
+
+.popup-form__textarea:hover {
+  background-color: rgb(221, 233, 235);
+  border-color: lightskyblue;
+}
+
+.popup-form__textarea:focus {
+  border: 1px solid transparent;
+  outline: 3px solid lightskyblue;
+  transition: outline 0.1s linear;
 }
 
 .popup-form--comment {
@@ -151,6 +185,25 @@ body {
   background-color: #fff;
 }
 
+.popup__button--close:hover {
+  transform: scale(1.03);
+  transition: transform 0.1s linear;
+}
+
+.popup__button--close:focus {
+  border: 0;
+  outline: 2px solid lightskyblue;
+  box-shadow: 0 0 0 3px lightskyblue;
+  transition: box-shadow 0.1s linear;
+}
+
+.popup__button--close:active {
+  color: #fff;
+  background-color: lightskyblue;
+  transform: scale(0.95);
+  transition: transform 0.05s ease;
+}
+
 .popup__button--submit {
   width: 179px;
   height: 55px;
@@ -158,6 +211,24 @@ body {
   border-radius: 8px;
   background-color: #000;
   color: #fff;
+}
+
+.popup__button--submit:hover {
+  transform: scale(1.03);
+  transition: transform 0.1s linear;
+}
+
+.popup__button--submit:focus {
+  border: 0;
+  outline: 2px solid lightskyblue;
+  box-shadow: 0 0 0 3px lightskyblue;
+  transition: box-shadow 0.1s linear;
+}
+
+.popup__button--submit:active {
+  background-color: lightskyblue;
+  transform: scale(0.95);
+  transition: transform 0.05s ease;
 }
 
 .fa-regular {
