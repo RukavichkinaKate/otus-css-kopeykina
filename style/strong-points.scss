@@ -2,6 +2,11 @@
 @import "./variables";
 @import "./mixins";
 
+.strong-points {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
 .strong-points__title {
     color: $text-color-main;
     @include roboto-font(24px, 700, normal);
@@ -34,7 +39,7 @@
     margin-top: -45px;
     margin-bottom: 148px;
     padding-left: 1.5%;
-    max-width: min-content;
+    // max-width: min-content;
 }
 
 .strong-points__image--midle {

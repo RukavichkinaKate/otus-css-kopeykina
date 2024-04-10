@@ -602,6 +602,7 @@ li {
 } */
 .designers {
   margin: 0 auto;
+  max-width: 1700px;
   margin-bottom: 132px;
 }
 
@@ -1087,6 +1088,11 @@ li {
         url("../PlayfairDisplay-Regular.svg") format("svg");
     font-weight: 400;
 } */
+.strong-points {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
 .strong-points__title {
   color: #000;
   font-family: Roboto;
@@ -1130,8 +1136,6 @@ li {
   margin-top: -45px;
   margin-bottom: 148px;
   padding-left: 1.5%;
-  max-width: -moz-min-content;
-  max-width: min-content;
 }
 
 .strong-points__image--midle {
