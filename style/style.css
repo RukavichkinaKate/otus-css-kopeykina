@@ -142,6 +142,8 @@ li {
   margin: auto;
   margin-right: 2%;
   border-radius: 5px;
+  transition: transform 0.2s ease;
+  transition: background-color 0.1s linear;
 }
 
 .contact-form:hover {
@@ -153,14 +155,12 @@ li {
 .contact-form:focus {
   outline: 3px solid lightblue;
   transform: scale(1.05);
-  transition: transform 0.1s linear;
 }
 
 .contact-form:active {
   border: 1px solid lightblue;
   background-color: lightskyblue;
   transform: scale(0.95);
-  transition: transform 0.05s ease;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1020px) {
@@ -1466,6 +1466,8 @@ dialog:-internal-dialog-in-top-layer::backdrop {
      -moz-appearance: none;
           appearance: none;
   height: 42px;
+  transition: outline 0.2s ease;
+  transition: background-color 0.2s linear;
 }
 
 .popup-form__input:hover {
@@ -1476,7 +1478,6 @@ dialog:-internal-dialog-in-top-layer::backdrop {
 .popup-form__input:focus {
   border: 1px solid transparent;
   outline: 3px solid lightskyblue;
-  transition: outline 0.1s linear;
 }
 
 .popup-form--name {
@@ -1498,6 +1499,8 @@ dialog:-internal-dialog-in-top-layer::backdrop {
   font-family: inherit;
   resize: none;
   height: 135px;
+  transition: outline 0.1s linear;
+  transition: background-color 0.2s linear;
 }
 
 .popup-form__textarea:hover {
@@ -1508,7 +1511,6 @@ dialog:-internal-dialog-in-top-layer::backdrop {
 .popup-form__textarea:focus {
   border: 1px solid transparent;
   outline: 3px solid lightskyblue;
-  transition: outline 0.1s linear;
 }
 
 .popup-form--comment {
@@ -1530,25 +1532,26 @@ dialog:-internal-dialog-in-top-layer::backdrop {
   border: 1.32px solid #566789;
   border-radius: 8px;
   background-color: #fff;
+  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
+  transition: background-color 0.1s linear;
 }
 
 .popup__button--close:hover {
   transform: scale(1.03);
-  transition: transform 0.1s linear;
+  box-shadow: 0 0 2px 2px lightblue;
 }
 
 .popup__button--close:focus {
   border: 0;
   outline: 2px solid lightskyblue;
   box-shadow: 0 0 0 3px lightskyblue;
-  transition: box-shadow 0.1s linear;
 }
 
 .popup__button--close:active {
   color: #fff;
   background-color: lightskyblue;
   transform: scale(0.95);
-  transition: transform 0.05s ease;
 }
 
 .popup__button--submit {
@@ -1558,24 +1561,25 @@ dialog:-internal-dialog-in-top-layer::backdrop {
   border-radius: 8px;
   background-color: #000;
   color: #fff;
+  transition: box-shadow 0.2s linear;
+  transition: transform 0.2s ease;
+  transition: background-color 0.1s linear;
 }
 
 .popup__button--submit:hover {
   transform: scale(1.03);
-  transition: transform 0.1s linear;
+  box-shadow: 0 0 2px 2px lightblue;
 }
 
 .popup__button--submit:focus {
   border: 0;
   outline: 2px solid lightskyblue;
   box-shadow: 0 0 0 3px lightskyblue;
-  transition: box-shadow 0.1s linear;
 }
 
 .popup__button--submit:active {
   background-color: lightskyblue;
   transform: scale(0.95);
-  transition: transform 0.05s ease;
 }
 
 .fa-regular {

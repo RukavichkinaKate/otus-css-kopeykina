@@ -21,6 +21,7 @@ body {
     box-sizing: border-box;
     border: 0;
 }
+
 dialog:-internal-dialog-in-top-layer::backdrop {
     background: rgba(0, 0, 0, 0.3);
 }
@@ -36,6 +37,7 @@ dialog:-internal-dialog-in-top-layer::backdrop {
     border-radius: 10px;
     z-index: -1;
 }
+
 .popup__title {
     @include roboto-font(24px, 700, normal);
     margin: 0;
@@ -70,6 +72,8 @@ dialog:-internal-dialog-in-top-layer::backdrop {
 .popup-form__input {
     appearance: none;
     height: 42px;
+    transition: outline 0.2s ease;
+    transition: background-color 0.2s linear;
 }
 
 .popup-form__input:hover {
@@ -79,14 +83,12 @@ dialog:-internal-dialog-in-top-layer::backdrop {
 .popup-form__input:focus {
     border: 1px solid transparent;
     outline: 3px solid lightskyblue;
-    transition: outline 0.1s linear;
 }
 
 .popup-form--name {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='27' viewBox='0 0 26 27' fill='none'%3E%3Cpath d='M14.2734 10.3574C16.6897 10.3574 18.6484 8.39867 18.6484 5.98242C18.6484 3.56618 16.6897 1.60742 14.2734 1.60742C11.8572 1.60742 9.89844 3.56618 9.89844 5.98242C9.89844 8.39867 11.8572 10.3574 14.2734 10.3574Z' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M1.77344 24.7324C1.77344 19.2093 6.81031 14.7324 13.0234 14.7324M18.6484 25.3574L24.8984 19.1074L22.3984 16.6074L16.1484 22.8574V25.3574H18.6484Z' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: 98%;
-
 }
 
 .popup-form--email {
@@ -100,6 +102,8 @@ dialog:-internal-dialog-in-top-layer::backdrop {
     font-family: inherit;
     resize: none;
     height: 135px;
+    transition: outline 0.1s linear;
+    transition: background-color 0.2s linear;
 }
 .popup-form__textarea:hover {
     background-color:  rgb(221 233 235);
@@ -108,7 +112,6 @@ dialog:-internal-dialog-in-top-layer::backdrop {
 .popup-form__textarea:focus {
     border: 1px solid transparent;
     outline: 3px solid lightskyblue;
-    transition: outline 0.1s linear;
 }
 
 .popup-form--comment {
@@ -127,44 +130,46 @@ dialog:-internal-dialog-in-top-layer::backdrop {
  .popup__button--close {
     @include popup-button;
     background-color: #fff;
+    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
+    transition: background-color 0.1s linear;
 }
 .popup__button--close:hover {
     transform: scale(1.03);
-    transition: transform 0.1s linear;
+    box-shadow: 0 0 2px 2px lightblue;
 }
 .popup__button--close:focus {
     border: 0;
     outline: 2px solid lightskyblue;
     box-shadow: 0 0 0 3px lightskyblue;
-    transition: box-shadow 0.1s linear;
 }
 .popup__button--close:active {
     color: #fff;
     background-color: lightskyblue;
     transform: scale(0.95);
-    transition: transform 0.05s ease;
 }
 
 .popup__button--submit {
     @include popup-button;
     background-color: #000;
     color: #fff;
+    transition: box-shadow 0.2s linear;
+    transition: transform 0.2s ease;
+    transition: background-color 0.1s linear;
 }
 
 .popup__button--submit:hover {
     transform: scale(1.03);
-    transition: transform 0.1s linear;
+    box-shadow: 0 0 2px 2px lightblue;
 }
 .popup__button--submit:focus {
     border: 0;
     outline: 2px solid lightskyblue;
     box-shadow: 0 0 0 3px lightskyblue;
-    transition: box-shadow 0.1s linear;
 }
 .popup__button--submit:active {
     background-color: lightskyblue;
-    transform: scale(0.95);
-    transition: transform 0.05s ease;  
+    transform: scale(0.95); 
 }
 
 .fa-regular {

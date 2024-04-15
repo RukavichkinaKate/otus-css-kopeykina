@@ -59,6 +59,8 @@
     margin: auto;
     margin-right: 2%;
     border-radius: 5px;
+    transition: transform 0.2s ease;
+    transition: background-color 0.1s linear;
 }
 .contact-form:hover {
     transform: scale(1.03);
@@ -68,14 +70,11 @@
 .contact-form:focus {
     outline: 3px solid lightblue;
     transform: scale(1.05);
-    transition: transform 0.1s linear;
 }
 .contact-form:active {
     border: 1px solid lightblue;
     background-color: lightskyblue;
     transform: scale(0.95);
-    transition: transform 0.05s ease;
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1020px) {
