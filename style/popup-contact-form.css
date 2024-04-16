@@ -44,8 +44,23 @@ body {
   padding: 20px;
   box-sizing: border-box;
   border: 0;
+  animation-name: slide-in-top;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+    overflow: hidden;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    overflow: hidden;
+  }
+}
 dialog:-internal-dialog-in-top-layer::backdrop {
   background: rgba(0, 0, 0, 0.3);
 }
@@ -60,8 +75,23 @@ dialog:-internal-dialog-in-top-layer::backdrop {
   translate: -22px -560px;
   border-radius: 10px;
   z-index: -1;
+  animation-name: rotate-frame;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
+@keyframes rotate-frame {
+  0% {
+    transform: rotate(2deg);
+    border-radius: 10px;
+    box-shadow: 0;
+  }
+  100% {
+    transform: rotate(4deg);
+    border-radius: 20px;
+  }
+}
 .popup__title {
   font-family: Roboto;
   font-size: 24px;
@@ -87,7 +117,9 @@ dialog:-internal-dialog-in-top-layer::backdrop {
   gap: 24px;
 }
 
-.popup-form__label, .popup__button--close, .popup__button--submit {
+.popup-form__label,
+.popup__button--close,
+.popup__button--submit {
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
@@ -101,7 +133,8 @@ dialog:-internal-dialog-in-top-layer::backdrop {
   gap: 6px;
 }
 
-.popup-form__input, .popup-form__textarea {
+.popup-form__input,
+.popup-form__textarea {
   box-sizing: border-box;
   font-family: Roboto;
   font-size: 16px;

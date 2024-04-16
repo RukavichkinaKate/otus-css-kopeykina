@@ -14,6 +14,7 @@
     margin-top: 16px;
     margin-left: 20px;
 }
+
 .header__logo:focus {
     outline: none;
 }
@@ -62,15 +63,18 @@
     transition: transform 0.2s ease;
     transition: background-color 0.1s linear;
 }
+
 .contact-form:hover {
     transform: scale(1.03);
     outline: 2px lightblue;
     box-shadow: 0 0 2px 2px lightblue;
 }
+
 .contact-form:focus {
     outline: 3px solid lightblue;
     transform: scale(1.05);
 }
+
 .contact-form:active {
     border: 1px solid lightblue;
     background-color: lightskyblue;
