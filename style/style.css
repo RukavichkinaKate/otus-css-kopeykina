@@ -1468,7 +1468,9 @@ dialog:-internal-dialog-in-top-layer::backdrop {
   gap: 24px;
 }
 
-.popup-form__label, .popup__button--close, .popup__button--submit {
+.popup-form__label,
+.popup__button--close,
+.popup__button--submit {
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
@@ -1482,7 +1484,8 @@ dialog:-internal-dialog-in-top-layer::backdrop {
   gap: 6px;
 }
 
-.popup-form__input, .popup-form__textarea {
+.popup-form__input,
+.popup-form__textarea {
   box-sizing: border-box;
   font-family: Roboto;
   font-size: 16px;
