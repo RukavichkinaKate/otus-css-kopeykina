@@ -33,3 +33,32 @@
     text-align: right;
     @include roboto-font(16px, 400, normal);
 }
+
+.footer__fake-block {
+    position: absolute;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 2% 1% 2% 1%;
+        align-items: flex-start;
+    }
+
+    .footer__fake-block {
+        position: static;
+        height: 160px;
+        background-color: #fff;
+    }
+    .footer__address {
+        font-size: 14px;
+        margin-top: 13px;
+    }
+
+    .footer__product {
+        font-size: 13px;
+    }
+
+    .footer__rights {
+        font-size: 14px;
+    }
+}

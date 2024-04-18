@@ -28,6 +28,8 @@
 .header__navigation {
   display: flex;
   justify-content: space-between;
+  max-width: 1700px;
+  margin: 0 auto;
 }
 
 .header__logo {

@@ -4,6 +4,8 @@
 
 .header__navigation {
     @include flexbox-Sbtw;
+    max-width: 1700px;
+    margin: 0 auto;
 }
 
 .header__logo {

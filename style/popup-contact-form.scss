@@ -225,3 +225,35 @@ dialog:-internal-dialog-in-top-layer::backdrop {
 .fa-regular {
     margin-right: 11px;
 }
+
+@media screen and (max-width: 847px) {
+    .popup {
+        width: 433px;
+        height: 517px;
+        padding: 15px;
+    }
+
+    .popup__title {
+        font-size: 20px;
+    }
+
+    .popup__descriptions {
+        font-size: 16px;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    .popup-form {
+        transform: scale(0.97);
+        gap: 13px;
+    }
+    .popup__button {
+        transform: scale(0.9);
+        width: 100%;
+        padding: 0;
+    }
+
+    .popup::after {
+        display: none;
+    }
+}

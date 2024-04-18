@@ -82,6 +82,8 @@ li {
 .header__navigation {
   display: flex;
   justify-content: space-between;
+  max-width: 1700px;
+  margin: 0 auto;
 }
 
 .header__logo {
@@ -1349,6 +1351,31 @@ li {
   line-height: normal;
 }
 
+.footer__fake-block {
+  position: absolute;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 2% 1% 2% 1%;
+    align-items: flex-start;
+  }
+  .footer__fake-block {
+    position: static;
+    height: 160px;
+    background-color: #fff;
+  }
+  .footer__address {
+    font-size: 14px;
+    margin-top: 13px;
+  }
+  .footer__product {
+    font-size: 13px;
+  }
+  .footer__rights {
+    font-size: 14px;
+  }
+}
 /* @font-face {
     font-family: "Playfair Display Medium";
     src:
@@ -1468,7 +1495,9 @@ dialog:-internal-dialog-in-top-layer::backdrop {
   gap: 24px;
 }
 
-.popup-form__label, .popup__button--close, .popup__button--submit {
+.popup-form__label,
+.popup__button--close,
+.popup__button--submit {
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
@@ -1482,7 +1511,8 @@ dialog:-internal-dialog-in-top-layer::backdrop {
   gap: 6px;
 }
 
-.popup-form__input, .popup-form__textarea {
+.popup-form__input,
+.popup-form__textarea {
   box-sizing: border-box;
   font-family: Roboto;
   font-size: 16px;
@@ -1618,4 +1648,32 @@ dialog:-internal-dialog-in-top-layer::backdrop {
 
 .fa-regular {
   margin-right: 11px;
+}
+
+@media screen and (max-width: 847px) {
+  .popup {
+    width: 433px;
+    height: 517px;
+    padding: 15px;
+  }
+  .popup__title {
+    font-size: 20px;
+  }
+  .popup__descriptions {
+    font-size: 16px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+  .popup-form {
+    transform: scale(0.97);
+    gap: 13px;
+  }
+  .popup__button {
+    transform: scale(0.9);
+    width: 100%;
+    padding: 0;
+  }
+  .popup::after {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
