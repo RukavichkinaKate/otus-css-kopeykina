@@ -1351,19 +1351,11 @@ li {
   line-height: normal;
 }
 
-.footer__fake-block {
-  position: absolute;
-}
-
 @media screen and (max-width: 767px) {
   .footer {
+    height: 160px;
     padding: 2% 1% 2% 1%;
     align-items: flex-start;
-  }
-  .footer__fake-block {
-    position: static;
-    height: 160px;
-    background-color: #fff;
   }
   .footer__address {
     font-size: 14px;
